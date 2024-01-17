@@ -5,8 +5,6 @@
             "files": {
                 "highlight.png": "assets/highlight.svg.in",
                 "radio.png": "assets/radio.svg",
-                "prev.png": "assets/prev.svg",
-                "next.png": "assets/next.svg",
                 "arrow.png": "assets/arrow.svg"
             }
         }
@@ -36,6 +34,10 @@
                 "BACKGROUND_COLOR_NAME_ZH": "亮色",
                 "NORMAL_COLOR": "#232629",
                 "HIGHLIGHT_COLOR": "#ffffff"
+            },
+            "files": {
+                "prev.png": "assets/prev_light.svg",
+                "next.png": "assets/next_light.svg"
             }
         },
         {
@@ -46,6 +48,10 @@
                 "BACKGROUND_COLOR_NAME_ZH": "暗色",
                 "NORMAL_COLOR": "#fcfcfc",
                 "HIGHLIGHT_COLOR": "#000000"
+            },
+            "files": {
+                "prev.png": "assets/prev_dark.svg",
+                "next.png": "assets/next_dark.svg"
             }
         }
     ],
