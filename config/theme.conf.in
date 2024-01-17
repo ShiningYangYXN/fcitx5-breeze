@@ -9,7 +9,6 @@ ScaleWithDPI=True
 
 [InputPanel]
 EnableBlur=False
-Font=Sans 10
 NormalColor=$NORMAL_COLOR$
 HighlightColor=$HIGHLIGHT_COLOR$
 Spacing=3
