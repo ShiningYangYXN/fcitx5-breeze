@@ -27,7 +27,7 @@ Top=16
 Bottom=16
 
 [InputPanel/Background]
-Image=panel.png
+Image=panel.svg
 
 [InputPanel/Background/Margin]
 Left=14
@@ -36,7 +36,7 @@ Top=14
 Bottom=14
 
 [InputPanel/Highlight]
-Image=highlight.png
+Image=highlight.svg
 
 [InputPanel/Highlight/Margin]
 Left=6
@@ -45,7 +45,7 @@ Top=6
 Bottom=6
 
 [InputPanel/PrevPage]
-Image=prev.png
+Image=prev.svg
 
 [InputPanel/PrevPage/ClickMargin]
 Left=5
@@ -54,7 +54,7 @@ Top=4
 Bottom=4
 
 [InputPanel/NextPage]
-Image=next.png
+Image=next.svg
 
 [InputPanel/NextPage/ClickMargin]
 Left=5
@@ -63,7 +63,7 @@ Top=4
 Bottom=4
 
 [Menu/Background]
-Image=panel.png
+Image=panel.svg
 
 [Menu/Background/Margin]
 Left=11
@@ -78,13 +78,13 @@ Top=11
 Bottom=11
 
 [Menu/CheckBox]
-Image=radio.png
+Image=radio.svg
 
 [Menu/SubMenu]
-Image=arrow.png
+Image=arrow.svg
 
 [Menu/Highlight]
-Image=highlight.png
+Image=highlight.svg
 
 [Menu/Highlight/Margin]
 Left=5
@@ -96,10 +96,10 @@ Bottom=5
 Color=#c0c0c0
 
 [Menu/CheckBox]
-Image=radio.png
+Image=radio.svg
 
 [Menu/SubMenu]
-Image=arrow.png
+Image=arrow.svg
 
 [Menu/TextMargin]
 Left=6

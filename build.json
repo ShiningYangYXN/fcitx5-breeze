@@ -3,9 +3,9 @@
         {
             "tag": "breeze",
             "files": {
-                "highlight.png": "assets/highlight.svg.in",
-                "radio.png": "assets/radio.svg",
-                "arrow.png": "assets/arrow.svg"
+                "highlight.svg": "assets/highlight.svg.in",
+                "radio.svg": "assets/radio.svg",
+                "arrow.svg": "assets/arrow.svg"
             }
         }
     ],
@@ -13,14 +13,14 @@
         {
             "tag": "opaque",
             "files": {
-                "panel.png": "assets/panel.svg.in",
+                "panel.svg": "assets/panel.svg.in",
                 "theme.conf": "config/theme.conf.in"
             }
         },
         {
             "tag": "translucent",
             "files": {
-                "panel.png": "assets/panel_translucent.svg.in",
+                "panel.svg": "assets/panel_translucent.svg.in",
                 "theme.conf": "config/theme_translucent.conf.in"
             }
         }
@@ -36,8 +36,8 @@
                 "HIGHLIGHT_COLOR": "#ffffff"
             },
             "files": {
-                "prev.png": "assets/prev_light.svg",
-                "next.png": "assets/next_light.svg"
+                "prev.svg": "assets/prev_light.svg",
+                "next.svg": "assets/next_light.svg"
             }
         },
         {
@@ -50,8 +50,8 @@
                 "HIGHLIGHT_COLOR": "#000000"
             },
             "files": {
-                "prev.png": "assets/prev_dark.svg",
-                "next.png": "assets/next_dark.svg"
+                "prev.svg": "assets/prev_dark.svg",
+                "next.svg": "assets/next_dark.svg"
             }
         }
     ],
