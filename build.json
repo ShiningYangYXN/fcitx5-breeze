@@ -33,7 +33,7 @@
                 "BACKGROUND_COLOR_NAME": "light",
                 "BACKGROUND_COLOR_NAME_ZH": "亮色",
                 "NORMAL_COLOR": "#232629",
-                "HIGHLIGHT_COLOR": "#ffffff"
+                "HIGHLIGHT_COLOR": "#eff0f1"
             },
             "files": {
                 "prev.svg": "assets/prev_light.svg",
@@ -43,11 +43,11 @@
         {
             "tag": "dark",
             "variables": {
-                "BACKGROUND_COLOR": "#1d2024",
+                "BACKGROUND_COLOR": "#31363b",
                 "BACKGROUND_COLOR_NAME": "dark",
                 "BACKGROUND_COLOR_NAME_ZH": "暗色",
                 "NORMAL_COLOR": "#fcfcfc",
-                "HIGHLIGHT_COLOR": "#000000"
+                "HIGHLIGHT_COLOR": "#202428"
             },
             "files": {
                 "prev.svg": "assets/prev_dark.svg",
