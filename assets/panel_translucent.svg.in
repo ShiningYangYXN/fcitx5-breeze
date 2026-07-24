@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="63" height="63" x=".5" y=".5" rx="5" ry="5" style="fill:$BACKGROUND_COLOR$;fill-opacity:.667;stroke:$HIGHLIGHT_COLOR$;stroke-width:1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="63" height="63" x=".5" y=".5" rx="5" ry="5" style="fill:$BACKGROUND_COLOR$;fill-opacity:.667;stroke:$SEPARATOR_COLOR$;stroke-width:1"/></svg>

@@ -33,7 +33,8 @@
                 "BACKGROUND_COLOR_NAME": "light",
                 "BACKGROUND_COLOR_NAME_ZH": "亮色",
                 "NORMAL_COLOR": "#232629",
-                "HIGHLIGHT_COLOR": "#eff0f1"
+                "HIGHLIGHT_COLOR": "#eff0f1",
+                "SEPARATOR_COLOR": "#c6c8c9"
             },
             "files": {
                 "prev.svg": "assets/prev_light.svg",
@@ -43,11 +44,12 @@
         {
             "tag": "dark",
             "variables": {
-                "BACKGROUND_COLOR": "#31363b",
+                "BACKGROUND_COLOR": "#202326",
                 "BACKGROUND_COLOR_NAME": "dark",
                 "BACKGROUND_COLOR_NAME_ZH": "暗色",
                 "NORMAL_COLOR": "#fcfcfc",
-                "HIGHLIGHT_COLOR": "#202428"
+                "HIGHLIGHT_COLOR": "#202326",
+                "SEPARATOR_COLOR": "#4c4e51"
             },
             "files": {
                 "prev.svg": "assets/prev_dark.svg",
@@ -65,27 +67,51 @@
             }
         },
         {
-            "tag": "mint",
+            "tag": "azure",
             "variables": {
-                "ACCENT_COLOR": "#2db496",
-                "ACCENT_COLOR_NAME": "Mint",
-                "ACCENT_COLOR_NAME_ZH": "青色"
+                "ACCENT_COLOR": "#1d99f3",
+                "ACCENT_COLOR_NAME": "Azure",
+                "ACCENT_COLOR_NAME_ZH": "天蓝"
+            }
+        },
+        {
+            "tag": "green",
+            "variables": {
+                "ACCENT_COLOR": "#27ae60",
+                "ACCENT_COLOR_NAME": "Green",
+                "ACCENT_COLOR_NAME_ZH": "绿色"
+            }
+        },
+        {
+            "tag": "orange",
+            "variables": {
+                "ACCENT_COLOR": "#f67400",
+                "ACCENT_COLOR_NAME": "Orange",
+                "ACCENT_COLOR_NAME_ZH": "橙色"
+            }
+        },
+        {
+            "tag": "red",
+            "variables": {
+                "ACCENT_COLOR": "#da4453",
+                "ACCENT_COLOR_NAME": "Red",
+                "ACCENT_COLOR_NAME_ZH": "红色"
             }
         },
         {
             "tag": "purple",
             "variables": {
-                "ACCENT_COLOR": "#c0afea",
+                "ACCENT_COLOR": "#9b59b6",
                 "ACCENT_COLOR_NAME": "Purple",
                 "ACCENT_COLOR_NAME_ZH": "紫色"
             }
         },
         {
-            "tag": "pink",
+            "tag": "steel",
             "variables": {
-                "ACCENT_COLOR": "#ec95c5",
-                "ACCENT_COLOR_NAME": "Pink",
-                "ACCENT_COLOR_NAME_ZH": "粉色"
+                "ACCENT_COLOR": "#2980b9",
+                "ACCENT_COLOR_NAME": "Steel",
+                "ACCENT_COLOR_NAME_ZH": "钢蓝"
             }
         }
     ]
