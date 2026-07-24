@@ -1,0 +1,40 @@
+name: Build & Package
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build themes and package
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build and package (version = commit hash)
+        id: pkg
+        run: bash package.sh
+
+      - name: Verify artifact
+        run: test -n "$(ls dist/*.tar.gz 2>/dev/null)" && echo "Archive present."
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          # 整个 dist 目录作为「一个」合并产物上传，
+          # 不会把 28 个主题目录拆成一大堆独立 artifact
+          name: fcitx5-breeze-${{ steps.pkg.outputs.version }}
+          path: dist
+          if-no-files-found: error
